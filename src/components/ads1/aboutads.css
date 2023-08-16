@@ -1,0 +1,73 @@
+.adabout{
+    width: 100%;
+    background-color: #dec7bb;
+}
+
+.container_adabout{
+    padding: 5.5rem 0 0 0;
+}
+.sec{
+    display: flex;
+    gap: 30px;
+    margin-top: 5rem;
+
+}
+.adaboutImg{
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+    flex: 1;
+    border-radius: 10px;
+
+}
+.aaHeading{
+    margin-top: 30px;
+    font-weight: 900;
+    color: rgb(21, 51, 52);
+
+}
+.heading_two{
+    margin-top: 30px;
+}
+.secItems{
+    display: flex;
+    gap: 30px;
+    cursor: pointer;
+}
+.secPara{
+    margin-top: 30px;
+    padding: 10px 5px;
+    background-color: #afa097;
+    line-height: 2rem;
+    border-radius: 10px;
+    padding: 10px 10px;
+}
+.active {
+    text-decoration: underline;
+    margin-top: 2px;
+
+  }
+  .section1{
+    flex: 2;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .aboutLink{
+    color: black;
+    font-size: 20px;
+    transition: font-size 0.3s ease, text-decoration 0.3s ease; /* Add transition property */
+  }
+  .aboutLink:hover{
+    font-size: 30px;
+    text-decoration: underline;
+  }
+  @media screen and (max-width:600px) {
+    .sec{
+        flex-direction: column;
+    
+    }
+
+ }

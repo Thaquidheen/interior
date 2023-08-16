@@ -41,7 +41,9 @@ li {
 .btn{
  background-color: transparent;
 }
-
+.heading{
+  font-family: 'Walter-Regular', 'Poppins';
+}
 @media screen and (max-width: 940px) {
 
   .mobile-menu {

@@ -6,13 +6,12 @@ const Ads = () => {
   return (
     <section className='ads' >
       <div className="container container_ads">
-        <h1 className='ads_heading'>Elevate Your Interiors</h1>
-        <div className="ads_content">
-            <div className="line"></div>
-            <Link to='/services' className='fas' >Services</Link>
-          
-      </div>
-      <h3 className='ads_sub'>Designing Interiors That Leave a Lasting Impression</h3>
+      <div className="header">
+          <h1 className='ads_heading'>Elevate Your Interiors</h1>
+          <Link className='aboutLink' to='/services'>Services</Link>
+        </div>
+      <div className="line"></div>
+      <h2 className='ads_sub'>Designing Interiors That Leave a Lasting Impression</h2>
        
        <div className="content">
         <div className="item">

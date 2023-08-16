@@ -6,22 +6,15 @@
     list-style: none;
     text-decoration: none;
     box-sizing: border-box;
-    /* @font-face {
-      font-family: 'Walter';
-      src: local('Walter Regular'), local('Walter-Regular'),
-          url('Walter-Regular.woff2') format('woff2'),
-          url('Walter-Regular.woff') format('woff'),
-          url('Walter-Regular.ttf') format('truetype');
-      font-weight: 400;
-      font-style: normal;
-    } */
-    @font-face {
-      font-family: 'Walter-Regular';
-      src: url('./fonts/Walter-Regular.ttf') format('truetype');
-      /* Other font properties */
-      font-weight: 400;
-      font-style: normal;
-    }
+   /* background-color: #dec7bb; */
+}
+   
+@font-face {
+  font-family: 'Walter-Regular';
+  src: url('./fonts/Walter-Regular.ttf') format('truetype');
+  /* Other font properties */
+
+  font-style: normal;
 }
 
 :root{
@@ -60,7 +53,7 @@ html{
   padding: 0;
 }
 body {
-  font-family: 'Walter-Regular', sans-serif;
+  font-family: 'Poppins';
 }
 
 ul {
