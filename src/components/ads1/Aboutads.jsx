@@ -39,7 +39,7 @@ const Aboutads = () => {
       <div className="container container_adabout">
       <div className="header">
           <h1 className='aaHeading ' data-aos="fade-up">About Our Design Philosophy</h1>
-          <Link className='aboutLink' to='/about' data-aos="fade-left">About</Link>
+          <Link className='aboutLink' to='/about' data-aos="fade-up">About</Link>
         </div>
       <div className="line"></div>
       <h2 className='heading_two'>Your Vision, Our Design Expertise</h2>

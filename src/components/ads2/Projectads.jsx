@@ -18,7 +18,7 @@ AOS.init({duration:1000})
         <div className="container conatiner_project">
         <div className="header">
           <h1 className='aaHeading' data-aos="fade-up">Project Timeline and Execution</h1>
-          <Link className='aboutLink' to='/project'  data-aos="fade-left">Project</Link>
+          <Link className='aboutLink' to='/project'  data-aos="fade-up">Project</Link>
         </div>
         <div className="line"></div>
       <h2 className='heading_two' data-aos="fade-up">Designing the Extraordinary, Project by Project</h2>

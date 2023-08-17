@@ -22,7 +22,7 @@ const Contactads = () => {
         <img  src="https://media.istockphoto.com/id/1323779251/photo/living-room-interior-wall-mockup-in-warm-tones-with-leather-armchair-on-white-wall-background.jpg?s=170667a&w=0&k=20&c=xnSo_xSTfMrMp6rb5NltRKUyPQtHlasrlBcFr94Xvow=" alt="" />
         <div className="cont">
         <h1 className='descHeading'  data-aos="fade-up">Have a project in mind</h1>
-        <button className='btn' data-aos="fade-left">Let's Talk</button>
+        <button className='btn' data-aos="fade-up">Let's Talk</button>
         </div>
      
        </div>

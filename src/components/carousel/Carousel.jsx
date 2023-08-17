@@ -16,7 +16,7 @@ const Carousel = () => {
   return (
     <div className="Container">
 
-    <Swiper data-aos="fade-up"
+    <Swiper
       effect={'coverflow'}
       grabCursor={true}
   
