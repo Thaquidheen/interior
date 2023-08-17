@@ -12,6 +12,7 @@ import {
 import About from './pages/about/About';
 import Services from './pages/services/Services';
 import Contact from './pages/contact/Contact';
+import Project from './pages/project/Project';
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
      <Route path='/services' element={<Services/>}/>
      <Route path='/about' element={<About/>}/>
      <Route path='/contact' element={<Contact/>}/>
+     <Route path='/project' element={<Project/>}/>
     </Routes>
  </BrowserRouter>
   )

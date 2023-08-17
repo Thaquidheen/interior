@@ -48,7 +48,7 @@ const Aboutads = () => {
             <h2 onClick={toggleVision}      className={activeSection === 'Vision' ? 'active' : ''}>Vision</h2>
             <h2 onClick={toggleMission}   className={activeSection === 'Mission' ? 'active' : ''}>Mission</h2>
             </div>
-        {/* <h2 onClick={toggleHistory}>History</h2> */}
+
         {showHistory && (
           <p className='secPara'>
           history ipsum dolor sit amet consectetur adipisicing elit. Quibusdam vitae cupiditate incidunt! Facilis, praesentium assumenda perferendis repellendus, sequi suscipit delectus animi doloremque reprehenderit illo hic deserunt nemo quae molestias aperiam.
@@ -57,7 +57,7 @@ const Aboutads = () => {
       </div>
 
       <div className="section">
-        {/* <h2 onClick={toggleMission}>Mission</h2> */}
+
         {showMission && (
           <p className='secPara'>
         mission ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam quisquam consequuntur sapiente ad commodi recusandae, accusantium iure voluptatum delectus laboriosam harum ab saepe molestiae alias quos eaque vero numquam cum.
@@ -66,7 +66,7 @@ const Aboutads = () => {
       </div>
 
       <div className="section">
-        {/* <h2 onClick={toggleVision}>Vision</h2> */}
+
         {showVision && (
           <p className='secPara'>
 vision ipsum dolor sit amet consectetur adipisicing elit. Aspernatur aliquam vel temporibus atque recusandae, accusamus tenetur laudantium perferendis quo earum aut dolorum dolor doloremque consequatur, asperiores sunt est soluta excepturi?Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique officiis dignissimos perferendis odit? Nam, numquam fuga eum omnis quod dolor quis! Eum vel neque dolorum. Totam maxime quasi quis voluptas?
