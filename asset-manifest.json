@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/interior/static/css/main.01c0c781.css",
+    "main.js": "/interior/static/js/main.20e66991.js",
+    "static/media/video.mp4": "/interior/static/media/video.5729fb98a68105e86ff0.mp4",
+    "static/media/pic1.jpg": "/interior/static/media/pic1.405273ef01d302e36571.jpg",
+    "static/media/Walter-Regular.ttf": "/interior/static/media/Walter-Regular.ed11c2abdb6884737796.ttf",
+    "index.html": "/interior/index.html",
+    "main.01c0c781.css.map": "/interior/static/css/main.01c0c781.css.map",
+    "main.20e66991.js.map": "/interior/static/js/main.20e66991.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.01c0c781.css",
+    "static/js/main.20e66991.js"
+  ]
+}
