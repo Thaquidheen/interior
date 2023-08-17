@@ -38,13 +38,13 @@ const Aboutads = () => {
     <div className="adabout">
       <div className="container container_adabout">
       <div className="header">
-          <h1 className='aaHeading ' data-aos="fade-right">About Our Design Philosophy</h1>
+          <h1 className='aaHeading ' data-aos="fade-up">About Our Design Philosophy</h1>
           <Link className='aboutLink' to='/about' data-aos="fade-left">About</Link>
         </div>
       <div className="line"></div>
       <h2 className='heading_two'>Your Vision, Our Design Expertise</h2>
         <div className="sec">
-          <img className='adaboutImg' data-aos="fade-right" src={pic1} alt="" />
+          <img className='adaboutImg' data-aos="fade-up" src={pic1} alt="" />
            <div className="section1">
            <div className="section">
             <div className="secItems">
