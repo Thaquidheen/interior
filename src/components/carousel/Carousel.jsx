@@ -1,18 +1,22 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import {Swiper,SwiperSlide} from 'swiper/react'; 
 import 'swiper/css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import './carousel.css';
-
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import {Autoplay, EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
 const Carousel = () => {
+  useEffect(()=>{
+    AOS.init({duration:1000})
+      },[])
   return (
     <div className="Container">
 
-    <Swiper
+    <Swiper data-aos="fade-up"
       effect={'coverflow'}
       grabCursor={true}
   

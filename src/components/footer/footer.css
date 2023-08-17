@@ -1,0 +1,23 @@
+.footer{
+    padding: 5rem 0 2rem 0;
+    background-color: #929da7;
+
+}
+.container_ft{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.items{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+@media screen and (max-width:600px) {
+    .container_ft{
+      flex-direction: column;
+      gap: 20px;
+    }
+
+ }

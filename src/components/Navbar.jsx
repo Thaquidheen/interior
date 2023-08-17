@@ -16,7 +16,7 @@ function Navbar() {
     return (
         <div name='home' className={nav ? 'navbar navbar-bg' : 'navbar'}>
             <div className={nav ? 'logo dark' : 'logo'}>
-                <h2 className='heading' >ILLAM.</h2>
+                <h2 className='heading' style={{color:"black"}} >ILLAM.</h2>
             </div>
             <ul className="nav-menu">
             <Link to='home' smooth={true} duration={500} ><li>Home</li></Link>

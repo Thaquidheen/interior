@@ -1,4 +1,54 @@
 .projectads{
-    height: 100vh;
+
     background-color: #dec7bb;
+    padding: 2rem  0 3rem 0;
 }
+.mySwiper{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+  }
+  
+  .swi {
+    text-align: center;
+    font-size: 18px;
+    background-color: #dec7bb;
+  
+    /* Center slide text vertically */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .swi img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .swidesc{
+ position: absolute;
+ color: rgb(174, 222, 219);
+ background-color: rgba(0, 0, 0, 0.7);
+ padding: 10px 15px;
+ border-radius: 10px;
+
+  }
+
+  @media (max-width: 768px) {
+    .mySwiper{
+        height: 35rem;
+    }
+    .swi {
+        width: 100% !important;
+        height: 36rem !important;
+    }
+    .swi img{
+        width: 100% !important;
+        height: 25rem !important;
+        object-fit: cover;
+    }
+    .swidesc{
+      font-size: 1.5rem;
+    }
+  }
