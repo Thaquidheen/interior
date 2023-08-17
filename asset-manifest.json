@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/interior/static/css/main.01c0c781.css",
-    "main.js": "/interior/static/js/main.20e66991.js",
-    "static/media/video.mp4": "/interior/static/media/video.5729fb98a68105e86ff0.mp4",
-    "static/media/pic1.jpg": "/interior/static/media/pic1.405273ef01d302e36571.jpg",
-    "static/media/Walter-Regular.ttf": "/interior/static/media/Walter-Regular.ed11c2abdb6884737796.ttf",
-    "index.html": "/interior/index.html",
-    "main.01c0c781.css.map": "/interior/static/css/main.01c0c781.css.map",
-    "main.20e66991.js.map": "/interior/static/js/main.20e66991.js.map"
+    "main.css": "/static/css/main.2e133752.css",
+    "main.js": "/static/js/main.be9b8b76.js",
+    "static/media/video.mp4": "/static/media/video.5729fb98a68105e86ff0.mp4",
+    "static/media/pic1.jpg": "/static/media/pic1.405273ef01d302e36571.jpg",
+    "static/media/Walter-Regular.ttf": "/static/media/Walter-Regular.ed11c2abdb6884737796.ttf",
+    "index.html": "/index.html",
+    "main.2e133752.css.map": "/static/css/main.2e133752.css.map",
+    "main.be9b8b76.js.map": "/static/js/main.be9b8b76.js.map"
   },
   "entrypoints": [
-    "static/css/main.01c0c781.css",
-    "static/js/main.20e66991.js"
+    "static/css/main.2e133752.css",
+    "static/js/main.be9b8b76.js"
   ]
 }
