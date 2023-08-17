@@ -1,0 +1,4 @@
+[[headers]]
+  for = "/*"  # Applies to all paths
+  [headers.values]
+    Permissions-Policy = "interest-cohort=()"  # Disable FLoC
